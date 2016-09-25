@@ -3,7 +3,7 @@
 public var gObj : GameObject; 
 
 function Start () { 
-CreateRandom();
+	InvokeRepeating ("CreateRandom", 0, 1);
 }
 
 function CreateRandom() { 

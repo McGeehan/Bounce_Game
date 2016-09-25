@@ -4,7 +4,10 @@ function OnCollisionEnter2D (other : Collision2D)
 {
 	if (other.gameObject.CompareTag("Ground"))
 	{
+		GameData.numMissed++; //also show shortcut NumMissed++;
+		GameData.DisplayScore();
 		Destroy(gameObject);
+
 	}
 }
 
