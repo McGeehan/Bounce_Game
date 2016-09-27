@@ -15,6 +15,6 @@ function CreateRandom() {
 
 	y = 6;
 
-	Instantiate( gObj, Vector3(x, y, 0), Quaternion.identity );
+	Instantiate( gObj, Vector3(x, y, 0), Quaternion.identity);
 	 
 }

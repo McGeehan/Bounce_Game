@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-function OnCollisionEnter2D (other : Collision2D)
+function OnCollisionEnter2D (other : Collision2D) //When collisions occur, the bomb dissappears
 {
 	if (other.gameObject.CompareTag("Ground"))
 	{
